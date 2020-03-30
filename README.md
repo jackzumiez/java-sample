@@ -1,2 +1,13 @@
 # java-sample
 Sample application for following along with the Habitat Java Developer Getting Started Guide
+
+This sample.war file and description is pulled from https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/
+
+The example app has been packaged as a war file and can be downloaded here (Note: make sure your browser doesn't change file extension or append a new one).
+
+The easiest way to run this application is simply to move the war file to your CATALINA_HOME/webapps directory. Tomcat will automatically expand and deploy the application for you. You can view it with the following URL (assuming that you're running tomcat on port 8080 as is the default):
+http://localhost:8080/sample
+
+If you just want to browse the contents, you can unpack the war file with the jar command.
+
+    jar -xvf sample.war
